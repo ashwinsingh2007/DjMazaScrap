@@ -62,7 +62,7 @@ request(url0,function(error,res,body)
 				prompt.get(['songname'],function(err,res)
 
 				{
-					path="H:/nodejs/programs/webscrapping/scrap/Downloads/"+res.songname+'.mp3';
+					path="Downloads/"+res.songname+'.mp3';
 			    	//console.log(path);
 			    	//console.log(songList[result.index]);
 			    	console.log("File is being downloaded please wait ....")
